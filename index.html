@@ -1,0 +1,230 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xperron Technologies | General Contracting & Construction</title>
+  <meta name="description" content="Xperron Technologies provides professional general contracting and construction management services in the Greater Toronto Area." />
+
+  <!-- Google Fonts + FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-…"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <!-- Replace with your relative logo path -->
+        <img src="./images/logo/XperronLogo.png" alt="Xperron Technologies Logo" />
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Building Excellence. Delivering Trust.</h1>
+      <h2>Professional General Contracting Firm</h2>
+      <p class="subhead">Residential | Commercial | Industrial</p>
+      <a href="#contact" class="btn btn-primary">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>About Xperron Technologies</h2>
+        <p>
+          <strong>Xperron Technologies</strong> is a trusted general contractor serving the Greater Toronto
+          Area. We pride ourselves on honesty, integrity, and quality workmanship. Our dedicated team builds
+          strong client relationships, ensuring every project meets the highest standards.
+        </p>
+        <ul class="highlights-list">
+          <li><i class="fas fa-award"></i> 5+ years of combined experience</li>
+          <li><i class="fas fa-users"></i> Residential, Commercial &amp; Industrial</li>
+          <li><i class="fas fa-handshake"></i> Transparent, collaborative process</li>
+          <li><i class="fas fa-shield-alt"></i> Safety and quality guaranteed</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <!-- Replace with your relative image path -->
+        <img src="./images/logo/XperronLogo.png" alt="Team at work" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="grid services-grid">
+        <div class="card service-card">
+          <i class="fas fa-house-user"></i>
+          <h3>Residential Construction</h3>
+          <p>Custom homes, renovations, additions, and basement finishing with a focus on quality.</p>
+        </div>
+        <div class="card service-card">
+          <i class="fas fa-building"></i>
+          <h3>Commercial Construction</h3>
+          <p>Office, retail, and mixed-use spaces built to the highest standards for safety and efficiency.</p>
+        </div>
+        <div class="card service-card">
+          <i class="fas fa-industry"></i>
+          <h3>Industrial Projects</h3>
+          <p>Warehouses, manufacturing, and industrial facilities designed for performance.</p>
+        </div>
+        <div class="card service-card">
+          <i class="fas fa-tasks"></i>
+          <h3>Project Management</h3>
+          <p>End-to-end project oversight, scheduling, and cost control for seamless delivery.</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="grid projects-grid">
+        <div class="card project-card">
+          <img
+            src="./images/HomeReno.jpg"
+            alt="Residential Renovation"
+          />
+          <div class="card-body">
+            <h4>Residential Renovation</h4>
+            <p>Complete home transformation in Kleinburg, ON, with modern finishes and open-concept design.</p>
+          </div>
+        </div>
+        <div class="card project-card">
+          <img
+            src="./images/Comm.jpg"
+            alt="Commercial Buildout"
+          />
+          <div class="card-body">
+            <h4>Commercial Buildout</h4>
+            <p>Flagship retail space in Vaughan, ON, delivered on time and on budget.</p>
+          </div>
+        </div>
+        <div class="card project-card">
+          <img
+            src="./images/Indust.jpg"
+            alt="Industrial Facility"
+          />
+          <div class="card-body">
+            <h4>Industrial Facility</h4>
+            <p>New warehouse and logistics center for a leading GTA manufacturer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready to Build With Us?</h2>
+      <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-wrapper">
+        <form class="contact-form" autocomplete="off">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <p><i class="fas fa-map-marker-alt"></i> 254 Mactier Drive, Kleinburg, ON L4H 4L8</p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:contact@xperrontech.com">contact@xperrontech.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="./images/logo/XperronLogo.png" alt="Xperron Technologies Logo" class="footer-logo" />
+        <h3>Xperron Technologies</h3>
+        <p>Building Excellence. Delivering Trust.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fas fa-map-marker-alt"></i> 254 Mactier Drive, Kleinburg, ON L4H 4L8</p>
+        <p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:contact@xperrontech.com">contact@xperrontech.com</a>
+        </p>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Xperron Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>

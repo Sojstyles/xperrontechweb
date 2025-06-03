@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xperron Technologies | General Contracting & Construction</title>
+  <meta name="description" content="Xperron Technologies provides professional general contracting and construction management services in the Greater Toronto Area. Building trust with quality work.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="enhanced-header sticky-header">
+    <div class="header-content">
+      <img src="G:\New Life\Business\Xperron\Web\xperrontech\logo\XperronLogo.png" alt="Xperron Technologies Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero enhanced-hero modern-hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1>Building Excellence. Delivering Trust.</h1>
+        <h2>Professional General Contracting Firm</h2>
+        <p class="hero-sub">Residential | Commercial | Industrial</p>
+        <a href="#contact" class="cta">Get in Touch</a>
+      </div>
+    </section>
+    <section id="about" class="about enhanced-about modern-about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Xperron Technologies</h2>
+          <p><strong>Xperron Technologies</strong> is a trusted general contractor serving the Greater Toronto Area. We pride ourselves on our reputation for honesty, integrity, and delivering the highest quality of work. Our team is dedicated to building strong relationships with clients, subcontractors, and suppliers, ensuring every project is completed to the highest standards.</p>
+          <ul class="about-highlights">
+            <li><i class="fa-solid fa-award"></i> 5+ years of combined experience</li>
+            <li><i class="fa-solid fa-users"></i> Residential, Commercial & Industrial</li>
+            <li><i class="fa-solid fa-handshake"></i> Transparent, collaborative process</li>
+            <li><i class="fa-solid fa-shield-heart"></i> Safety and quality guaranteed</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="G:\New Life\Business\Xperron\Web\xperrontech\logo\XperronLogo.png" alt="Xperron Technologies">
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services enhanced-services modern-services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fa-solid fa-house"></i>
+          <h3>Residential Construction</h3>
+          <p>Custom homes, renovations, additions, and basement finishing with a focus on quality and client satisfaction.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-building"></i>
+          <h3>Commercial Construction</h3>
+          <p>Office, retail, and mixed-use spaces built to the highest standards for safety and efficiency.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-industry"></i>
+          <h3>Industrial Projects</h3>
+          <p>Warehouses, manufacturing, and industrial facilities designed and constructed for performance.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-helmet-safety"></i>
+          <h3>Project Management</h3>
+          <p>End-to-end project oversight, scheduling, and cost control for seamless delivery.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-shield-heart"></i>
+          <h3>Safety & Compliance</h3>
+          <p>Strict adherence to safety standards and regulatory requirements on every project.</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects enhanced-projects modern-projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Residential Renovation">
+          <h4>Residential Renovation</h4>
+          <p>Complete home transformation in Kleinburg, ON, featuring modern finishes and open-concept design.</p>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Commercial Buildout">
+          <h4>Commercial Buildout</h4>
+          <p>Flagship retail space in Vaughan, ON, delivered on time and on budget.</p>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1503389152951-9c3d8b6b8c9a?auto=format&fit=crop&w=600&q=80" alt="Industrial Facility">
+          <h4>Industrial Facility</h4>
+          <p>New warehouse and logistics center for a leading GTA manufacturer.</p>
+        </div>
+      </div>
+    </section>
+    <section class="cta-section enhanced-cta modern-cta">
+      <h2>Ready to Build With Us?</h2>
+      <a href="#contact" class="cta">Get in Touch</a>
+    </section>
+    <section id="contact" class="contact enhanced-contact modern-contact">
+      <h2>Contact Us</h2>
+      <form class="contact-form" autocomplete="off">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="cta">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p><i class="fa-solid fa-location-dot"></i> 254 Mactier Drive, Kleinburg, ON, L4H 4L8</p>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@xperrontech.com">contact@xperrontech.com</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="enhanced-footer modern-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="logo/XperronLogo.png" alt="Xperron Technologies Logo" class="footer-logo">
+        <h3>Xperron Technologies</h3>
+        <p>Building Excellence. Delivering Trust.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fa-solid fa-location-dot"></i> 254 Mactier Drive, Kleinburg, ON, L4H 4L8</p>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@xperrontech.com">contact@xperrontech.com</a></p>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Xperron Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
